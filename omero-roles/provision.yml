@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+
+  # clone OMERO ansible project
+  tasks:
+    - git: repo=https://github.com/JIC-CSB/omero-ansible.git 
+           dest=/opt/omero-ansible
+

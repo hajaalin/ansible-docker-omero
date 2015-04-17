@@ -1,0 +1,6 @@
+- hosts: localhost
+
+  tasks: 
+  - name: Build OMERO containers
+    docker_image: path="omero-roles" name="omero-roles" state=build
+  
