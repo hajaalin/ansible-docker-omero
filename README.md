@@ -1,4 +1,4 @@
-# ansible-docker-omero
+# omero-ansible-docker
 
 Build OMERO Docker images based on Ansible instructions.
 `ansible-playbook build.yml -c local`
