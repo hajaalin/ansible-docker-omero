@@ -3,4 +3,6 @@
   tasks: 
   - name: Build OMERO containers
     docker_image: path="omero-roles" name="omero-roles" state=build
+    docker_image: path="omero-base" name="omero-base" state=build
+    docker_image: path="omero-server" name="omero-server" state=build
   

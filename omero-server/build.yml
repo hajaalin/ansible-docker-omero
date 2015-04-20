@@ -1,0 +1,10 @@
+---
+# Ansible Playbook to build an OMERO 5.1 server image
+
+- name: build OMERO server image
+ 
+  hosts: local
+
+  roles:
+    - omero-server
+

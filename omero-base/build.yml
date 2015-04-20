@@ -1,0 +1,14 @@
+---
+# Ansible Playbook to build an OMERO 5.1 server base image
+
+- name: build OMERO base image
+ 
+  hosts: local
+
+  roles:
+    - epel
+    - build_tools
+    - hdf5
+    - python
+    - omero-base
+
