@@ -4,6 +4,7 @@
 
   # clone OMERO ansible project
   tasks:
-    - git: repo=https://github.com/JIC-CSB/omero-ansible.git 
+    - git: repo=https://github.com/hajaalin/omero-ansible.git 
            dest=/opt/omero-ansible
+    - shell: cd /opt/omero-ansible; git checkout split_server_roles
 
